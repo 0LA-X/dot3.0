@@ -1,0 +1,12 @@
+# Ignore everything inside plugins/
+Configs/.config/tmux/plugins/*
+
+# ignore colorscheme
+# Configs/.config/hypr_caelestia/scheme/current.conf
+
+Configs/.config/gtk-3.0/gtk.css
+Configs/.config/gtk-4.0/gtk.css
+
+Configs/.config/spicetify/*
+!Configs/.config/spicetify/Themes
+!Configs/.config/spicetify/Themes/*

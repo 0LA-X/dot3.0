@@ -1,0 +1,50 @@
+# ====================
+#   Ghostty Config
+# ====================
+font-family = CaskaydiaCove Nerd Font
+font-size = 15.5
+
+cursor-style = block
+cursor-style-blink = true
+
+# background-opacity = 0.90
+
+window-padding-x = 10
+window-padding-y = 10
+
+# [ Themes ]
+# theme = "Gruvbox Dark Hard"
+# theme = "Builtin Pastel Dark"
+# theme = "Mathias"
+theme = "axgruv"
+
+#[ Shaders ]
+custom-shader = ./shaders/cursor_blaze.glsl 
+custom-shader = ./shaders/cursor_smear.glsl
+# custom-shader = ./shaders/cursor_blaze_no_trail.glsl
+custom-shader = ./shaders/cursor_blaze_tapered.glsl
+# custom-shader = ./shaders/manga_slash.glsl
+# custom-shader = ./shaders
+
+# [ Keybindings ]
+keybind = ctrl+space>r=reload_config
+
+keybind = ctrl+space>n=new_window
+keybind = ctrl+space>t=new_tab
+keybind = ctrl+space>q=close_tab
+
+#keybind = shift+alt+h=previous_tab
+#keybind = shift+alt+l=next_tab
+
+#keybind = ctrl+space>equal=equalize_splits
+
+# [Split Navigation]
+#keybind = ctrl+space>h=new_split:left
+#keybind = ctrl+space>j=new_split:down
+#keybind = ctrl+space>k=new_split:up
+#keybind = ctrl+space>l=new_split:right
+
+#keybind = alt+h=goto_split:left
+#keybind = alt+j=goto_split:down
+#keybind = alt+k=goto_split:up
+#keybind = alt+l=goto_split:right
