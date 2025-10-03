@@ -1,0 +1,31 @@
+# Minimal Starship config for root user
+
+add_newline = true
+
+format = """
+[ ROOT ](bold fg:red bg:black)\
+$directory\
+$git_branch\
+$git_status\
+$character
+"""
+
+[directory]
+style = "bold fg:yellow"
+read_only = " "
+format = "[ $path ]($style)[$read_only]($style)"
+truncation_length = 3
+truncation_symbol = '…/'
+
+[git_branch]
+symbol = ""
+style = "bold fg:cyan"
+format = "[ $symbol $branch ]($style)"
+
+[git_status]
+style = "fg:cyan"
+format = "[$all_status]($style)"
+
+[character]
+success_symbol = "[❯](bold fg:#00CCFF) "
+error_symbol = "[❯](bold fg:red) "
