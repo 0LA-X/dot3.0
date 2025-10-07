@@ -96,8 +96,8 @@ setopt hist_ignore_dups
 
 eval "$(starship init zsh)"
 
-# Alt colors #39FF14 #BFFF00
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#77DD77'
+# Alt colors #BFFF00 #77DD77 #FF69B4 
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#B026FF,bg=black"
 
 # Load zsh-syntax-highlighting LAST
 source "${ZSH_CUSTOM:-$ZSH/custom}/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
