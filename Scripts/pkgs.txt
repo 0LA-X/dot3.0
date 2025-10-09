@@ -6,7 +6,7 @@ git npm pyhton-uv
 man-db btop nvtop
 ripgrep fd pv jq 
 stow rsync curl wget
-cifs-utils uwsm
+cifs-utils uwsm 7zip
 samba ufw net-utils
 usbutils udisks2 udiskie
 yt-dlp mpv-mpris ffmpeg 
