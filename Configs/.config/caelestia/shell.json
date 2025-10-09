@@ -12,11 +12,11 @@
                 "sans": "Rubik"
             },
             "size": {
-                "scale": 1.1
+                "scale": 1.3
             }
         },
         "padding": {
-            "scale": 1
+            "scale": 1.5
         },
         "rounding": {
             "scale": 1
