@@ -18,9 +18,9 @@ return {
     "mason-org/mason-lspconfig.nvim",
     opts = {
       ensure_installed = {
-        "lua_ls", "ts_ls",
-        "pyright", "bashls",
-        "rust_analyzer",
+        "lua_ls",  "css-lsp",
+        "pyright", "bashls", "rust_analyzer",
+        "typescript-language-server",
       },
       automatic_installation = true,
     },
@@ -35,6 +35,7 @@ return {
   		ensure_installed = {
   			"vim", "lua", "vimdoc",
         "python", "rust", "bash",
+        "tsx", "css", "html",
   		},
   	},
   },
