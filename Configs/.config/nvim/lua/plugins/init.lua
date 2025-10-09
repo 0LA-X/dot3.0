@@ -14,7 +14,6 @@ return {
 	},
 
 	-- LSP Support
-
 	-- Mason
 	{
 		"williamboman/mason.nvim",
@@ -69,11 +68,15 @@ return {
 					-- "rustfmt", -- bash formatter
 				},
 
-				-- integrations = {
-				--   ['mason-lspconfig'] = true,
-				--   ['mason-null-ls'] = true,
-				--   ['mason-nvim-dap'] = true,
-				-- },
+        run_on_start = true,
+        start_delay = 3000, -- 3 second delay
+        debounce_hours = 5,
+
+        integrations = {
+				  ['mason-lspconfig'] = true,
+				  ['mason-null-ls'] = true,
+				  ['mason-nvim-dap'] = true,
+				},
 			})
 		end,
 	},
