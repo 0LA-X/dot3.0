@@ -2,9 +2,6 @@
 
 set -e
 
-
-SOUND="~/.config/key-sounds/akko_lavender_purples"
-
 wayvibes --device
 
-wayvibes "$SOUND" -v 6 --background
+wayvibes ~/.config/key-sounds/akko_purples -v 6 --background -v 6 --background
