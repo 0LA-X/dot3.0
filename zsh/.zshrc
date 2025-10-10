@@ -38,6 +38,8 @@ export SYSTEMD_EDITOR="nvim"
 
 export TERMINAL="kitty"
 
+export corn="$HOME/_tmp/yt-dlp/.yt-dlp"
+
 #[ Aliases & Shortcuts ] 
 # -- Navigation
 alias .='z ../'
