@@ -32,7 +32,7 @@
     },
     "general": {
         "apps": {
-            "terminal": ["ghostty"],
+            "terminal": ["foot"],
             "audio": ["pavucontrol"],
             "playback": ["mpv"],
             "explorer": ["thunar"]
