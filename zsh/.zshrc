@@ -10,14 +10,16 @@ pokego -r 1,3,6 -no-title
 
 # Enable vi mode
 bindkey -v
+export KEYTIMEOUT=1
 
 #[ Source oh-my-zsh ]
 export ZSH="$HOME/.oh-my-zsh"
 
-#[ oh-my-zsh plugins ]
+#[ oh-my-zsh plugins : sudo]
 plugins=(
   git
   sudo
+  zsh-vi-mode
   zsh-autosuggestions
   zsh-interactive-cd
 )
@@ -98,8 +100,8 @@ setopt hist_ignore_dups
 
 eval "$(starship init zsh)"
 
-# Alt colors #BFFF00 #77DD77 #FF69B4 
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#B026FF,bg=black"
+# Alt colors #BFFF00 #77DD77 #FF69B4 #B026FF
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#BFFF00"
 
 # Load zsh-syntax-highlighting LAST
 source "${ZSH_CUSTOM:-$ZSH/custom}/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
