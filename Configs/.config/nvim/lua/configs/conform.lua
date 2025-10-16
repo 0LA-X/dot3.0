@@ -10,12 +10,11 @@ local options = {
     svelte = { "prettier" },
     nix = { "nixfmt" },
     bash = { "shfmt" },
-    python = { "black" },
-    rust = { "rustfmt" },
+    -- python = { "isort", "black" },  -- You can use both
+    -- rust = { "rustfmt" },
   },
 
   format_on_save = {
-    -- These options will be passed to conform.format()
     timeout_ms = 500,
     lsp_fallback = true,
   },
