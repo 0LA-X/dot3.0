@@ -4,7 +4,7 @@ if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
 fi
 
 #[ Fun stuff ]
-pokego -r 1,3,6 -no-title
+clear && pokego -r 1,3,6 -no-title
 # fastfetch
 # pokego --name eevee -no-title -s
 
