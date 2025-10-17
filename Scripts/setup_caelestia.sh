@@ -6,7 +6,7 @@ SCR_DIR="$HOME/dot3.0/Scripts/_helpers"
 PKG_LST="$HOME/dot3.0/Scripts/pkgs.txt"
 DOTFILES_DIR="$HOME/dot3.0"
 YAY_DIR="HOME/.yay"
-C_DIR="$HOME/.config/quickshell/caelestia"
+# C_DIR="$HOME/.config/quickshell/caelestia"
 
 show_header() {
     cat << "EOF"
@@ -50,19 +50,19 @@ install_pkgs(){
 }
 
 install_caelestia(){
-  echo " Installing Caelestia Dependencies"
+  echo " Installing Caelestia"
   yay -S --noconfirm caelestia-shell-git caelestia-cli-git 
 
-  echo " Cloning Caelestia Repo"
-  mkdir -p $C_DIR
-  git clone https://github.com/caelestia-dots/shell.git $C_DIR
+  # echo " Cloning Caelestia Repo"
+  # mkdir -p $C_DIR
+  # git clone https://github.com/caelestia-dots/shell.git $C_DIR
 
-  echo " Building Caelestia"
-  cd $C_DIR
-  cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/ -DINSTALL_QSCONFDIR=$C_DIR
-  cmake --build build
-  sudo cmake --install build
-  sudo chown -R $USER $C_DIR
+  # echo " Building Caelestia"
+  # cd $C_DIR
+  # cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/ -DINSTALL_QSCONFDIR=$C_DIR
+  # cmake --build build
+  # sudo cmake --install build
+  # sudo chown -R $USER $C_DIR
 }
 
 git_modules(){
@@ -117,9 +117,6 @@ helper_scripts(){
 
   echo "[ + ] Setting up Boot-themes"
   $SCR_DIR/setup_boot_themes.sh
-  
-  echo "[ + ] Setting up Display manager"
-  $SCR_DIR/greeter.sh
   
   echo "[ + ] Setting up Audio & Bluetooth"
   $SCR_DIR/setup_audio.sh
