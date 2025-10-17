@@ -7,6 +7,7 @@
         },
         "font": {
             "family": {
+                "clock": "Rubik",
                 "material": "Material Symbols Rounded",
                 "mono": "CaskaydiaCove NF",
                 "sans": "Rubik"
@@ -32,7 +33,7 @@
     },
     "general": {
         "apps": {
-            "terminal": ["foot"],
+            "terminal": ["kitty"],
             "audio": ["pavucontrol"],
             "playback": ["mpv"],
             "explorer": ["thunar"]
@@ -40,19 +41,19 @@
         "battery": {
             "warnLevels": [
                 {
-                    "level": 50,
+                    "level": 45,
                     "title": "Low battery",
                     "message": "You might want to plug in a charger",
                     "icon": "battery_android_frame_2"
                 },
                 {
-                    "level": 40,
+                    "level": 30,
                     "title": "Did you see the previous message?",
                     "message": "You should probably plug in a charger <b>now</b>",
                     "icon": "battery_android_frame_1"
                 },
                 {
-                    "level": 30,
+                    "level": 20,
                     "title": "Critical battery level",
                     "message": "PLUG THE CHARGER RIGHT NOW!!",
                     "icon": "battery_android_alert",
@@ -87,7 +88,7 @@
         },
         "enabled": true,
         "visualiser": {
-            "enabled": false,
+            "enabled": true,
             "autoHide": true,
             "rounding": 1,
             "spacing": 1
@@ -167,7 +168,13 @@
             "occupiedLabel": "󰮯",
             "perMonitorWorkspaces": true,
             "showWindows": true,
-            "shown": 5
+            "shown": 5,
+            "specialWorkspaceIcons": [
+                {
+                    "name": "steam",
+                    "icon": "sports_esports"
+                }
+            ]
         }
     },
     "border": {
@@ -236,7 +243,7 @@
                 "icon": "light_mode",
                 "description": "Change the scheme to light mode",
                 "command": ["setMode", "light"],
-                "enabled": true,
+                "enabled": false,
                 "dangerous": false
             },
             {
@@ -327,6 +334,7 @@
     },
     "services": {
         "audioIncrement": 0.1,
+        "maxVolume": 1.0,
         "defaultPlayer": "Spotify",
         "gpuType": "",
         "playerAliases": [{ "from": "com.github.th_ch.youtube_music", "to": "YT Music" }],
@@ -362,7 +370,20 @@
             "configLoaded": true,
             "dndChanged": true,
             "gameModeChanged": true,
-            "numLockChanged": true
+            "kbLayoutChanged": true,
+            "numLockChanged": true,
+            "vpnChanged": true,
+            "nowPlaying": false
+        },
+        "vpn": {
+            "enabled": false,
+            "provider": [
+                {
+                    "name": "wireguard",
+                    "interface": "your-connection-name",
+                    "displayName": "Wireguard (Your VPN)"
+                }
+            ]
         }
     }
 }
