@@ -12,6 +12,6 @@ Configs/.config/qt5ct/colors/caelestia.colors
 Configs/.config/qt6ct/colors/caelestia.colors
 
 Configs/.config/spicetify/*
-Configs/.config/spicetify/Themes/caelestia/color.ini
 !Configs/.config/spicetify/Themes
 !Configs/.config/spicetify/Themes/*
+Configs/.config/spicetify/Themes/caelestia/color.ini
