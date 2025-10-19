@@ -12,13 +12,13 @@ o.guicursor = "i-n-c-sm:block-blinkwait700-blinkon400-blinkoff250"
 
 --
 -- CursorLine
-o.cursorline = true
-o.cursorlineopt ='both' -- to enable cursorline!
-vim.cmd([[
-  highlight CursorLine ctermbg=DarkGrey guibg=#2a2a2a
-  highlight CursorLineNr ctermbg=DarkGrey guibg=#2a2a2a
-]])
+-- o.cursorline = true
+-- o.cursorlineopt ='both' -- to enable cursorline!
+-- vim.cmd([[
+--   highlight CursorLine ctermbg=DarkGrey guibg=#2a2a2a
+--   highlight CursorLineNr ctermbg=DarkGrey guibg=#2a2a2a
+-- ]])
 --
 --
-o.number = true         -- Show absolute line number
+-- o.number = true         -- Show absolute line number
 o.relativenumber = true -- Show relative numbers
