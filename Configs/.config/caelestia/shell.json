@@ -317,7 +317,7 @@
     "notifs": {
         "actionOnClick": false,
         "clearThreshold": 0.3,
-        "defaultExpireTimeout": 3000,
+        "defaultExpireTimeout": 4000,
         "expandThreshold": 20,
         "expire": true
     },
