@@ -87,7 +87,7 @@ return {
         "vim", "lua", "vimdoc",
         "python", "rust", "bash",
         "typescript", "tsx",  -- Added typescript for better TS support
-        "css", "html",
+        "css", "html", "markdown",
       },
     },
   },
