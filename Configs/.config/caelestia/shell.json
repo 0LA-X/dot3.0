@@ -235,7 +235,7 @@
                 "icon": "casino",
                 "description": "Switch to a random wallpaper",
                 "command": ["caelestia", "wallpaper", "-r"],
-                "enabled": true,
+                "enabled": false,
                 "dangerous": false
             },
             {
@@ -317,7 +317,7 @@
     "notifs": {
         "actionOnClick": false,
         "clearThreshold": 0.3,
-        "defaultExpireTimeout": 4000,
+        "defaultExpireTimeout": 5000,
         "expandThreshold": 20,
         "expire": true
     },
@@ -373,7 +373,7 @@
             "kbLayoutChanged": true,
             "numLockChanged": true,
             "vpnChanged": true,
-            "nowPlaying": false
+            "nowPlaying": true
         },
         "vpn": {
             "enabled": false,
