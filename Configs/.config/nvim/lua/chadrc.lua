@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-	theme = "decay",
+	theme = "chadracula",
   transparency = true,
 
 	hl_override = {
@@ -15,7 +15,7 @@ M.base46 = {
 	},
 }
 
-M.nvdash = { 
+M.nvdash = {
   load_on_startup = true,
   header = {
     "                              ",
