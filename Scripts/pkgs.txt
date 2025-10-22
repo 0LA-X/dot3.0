@@ -29,6 +29,7 @@ xdg-desktop-portal-gtk
 gnome-keyring polkit-gnome
 kitty ghostty foot
 power-profiles-daemon
+gammastep geoclue
 
 #[ Theming ]
 qt5ct-kde qt6ct-kde 

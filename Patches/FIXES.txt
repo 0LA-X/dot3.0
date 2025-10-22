@@ -1,0 +1,22 @@
+
+## NOTE: Quickshell-git needs to be rebuilt on every qt5/6 version update
+  @ yay -S --rebuild --rebuildtree --cleanafter quickshell-git
+  yay -S --rebuild --rebuildtree  quickshell-git caelestia-cli-git caelestia-shell-git
+
+Remove quickshell
+ @ sudo pacman -R quickshell-git 
+ @ or if it complains about deps
+ @ sudo pacman -Rdd quickshell-git 
+
+Clear cache
+  yay -Sc 
+  rm -rf ~/.cache/yay/quickshell-git 2>/dev/null 
+
+Then rebuild
+  yay -S --rebuild --rebuildtree --cleanafter quickshell-git
+
+#### Sync toolchain (Built with Clang & llvm)
+  sudo pacman -Syu llvm clang lld gcc binutils base-devel
+to get everything in sync, then rebuild the package that owns libbreakpad_client.a before trying Quickshell again.
+
+yay -S --cleanbuild google-breakpad or yay -S --cleanbuild google-breakpad-git
