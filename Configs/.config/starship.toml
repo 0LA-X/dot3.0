@@ -106,7 +106,7 @@ symbol = ' '
 format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
 
 [rust]
-symbol = ''
+symbol = '🦀'
 format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_rust)]($style)'
 
 [golang]
