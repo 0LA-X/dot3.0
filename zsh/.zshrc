@@ -40,7 +40,10 @@ export SYSTEMD_EDITOR="nvim"
 
 export TERMINAL="kitty"
 
-export corn="$HOME/_tmp/yt-dlp/.yt-dlp"
+#[ Xcompose IG ¯\_(ツ)_/¯]
+export GTK_IM_MODULE=xim
+export QT_IM_MODULE=xim
+export XMODIFIERS=@im=none
 
 #[ Aliases & Shortcuts ] 
 # -- Navigation
