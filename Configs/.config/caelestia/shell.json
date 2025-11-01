@@ -161,9 +161,9 @@
         },
         "workspaces": {
             "activeIndicator": true,
-            "activeLabel": "󱡝",
+            "activeLabel": "󰐼",
             "activeTrail": false,
-            "label": "  ",
+            "label": "🔘",
             "occupiedBg": false,
             "occupiedLabel": "󰮯",
             "perMonitorWorkspaces": true,
