@@ -243,7 +243,7 @@
                 "icon": "light_mode",
                 "description": "Change the scheme to light mode",
                 "command": ["setMode", "light"],
-                "enabled": false,
+                "enabled": true,
                 "dangerous": false
             },
             {
