@@ -20,7 +20,7 @@ return {
     -- Disable in special filetypes
     vim.api.nvim_create_autocmd("FileType", {
       pattern = {
-        "help", "dashboard", "neo-tree", "lazy", "mason", "trouble", "alpha",
+        "help", "dashboard", "neo-tree", "lazy", "mason", "trouble", "alpha", "nvim-tree",
       },
       callback = function()
         vim.b.miniindentscope_disable = true
