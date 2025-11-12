@@ -12,6 +12,8 @@ background-opacity = 0.95
 window-padding-x = 5
 window-padding-y = 5
 
+confirm-close-surface = false
+
 # [ Themes ]
 # theme = "Gruvbox Dark Hard"
 # theme = "Builtin Pastel Dark"
@@ -19,12 +21,10 @@ window-padding-y = 5
 theme = "axgruv"
 
 #[ Shaders ]
-custom-shader = ./shaders/cursor_blaze.glsl 
 custom-shader = ./shaders/cursor_smear.glsl
-# custom-shader = ./shaders/cursor_blaze_no_trail.glsl
-custom-shader = ./shaders/cursor_blaze_tapered.glsl
-# custom-shader = ./shaders/manga_slash.glsl
-custom-shader = ./shaders/bloom.glsl
+custom-shader = ./shaders/cursor_blaze_no_trail.glsl
+# custom-shader = ./shaders/bloom.glsl
+custom-shader = ./shaders/bloom025.glsl
 # custom-shader = ./shaders
 
 # [ Keybindings ]
