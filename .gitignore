@@ -15,3 +15,5 @@ Configs/.config/spicetify/*
 !Configs/.config/spicetify/Themes
 !Configs/.config/spicetify/Themes/*
 Configs/.config/spicetify/Themes/caelestia/color.ini
+
+Local/.local/bin/ghostty
