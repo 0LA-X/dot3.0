@@ -7,7 +7,7 @@ font-size = 15.5
 cursor-style = block
 cursor-style-blink = true
 
-background-opacity = 0.95
+background-opacity = 0.85
 
 window-padding-x = 5
 window-padding-y = 5
@@ -20,12 +20,18 @@ confirm-close-surface = false
 # theme = "Mathias"
 theme = "axgruv"
 
-#[ Shaders ]
+# #[ Shaders_Main ]
 custom-shader = ./shaders/cursor_smear.glsl
 custom-shader = ./shaders/cursor_blaze_no_trail.glsl
+custom-shader = ./shaders/bloom050.glsl
+
+#[ Shaders_Main ]
+custom-shader = ./shaders/cursor_warp.glsl
+# custom-shader = ./shaders/cursor_sweep.glsl
+# custom-shader = ./shaders/
+# custom-shader = ./shaders/rectangle_boom_cursor.glsl
+# custom-shader = ./shaders/ripple_rectangle_cursor.glsl
 # custom-shader = ./shaders/bloom.glsl
-custom-shader = ./shaders/bloom025.glsl
-# custom-shader = ./shaders
 
 # [ Keybindings ]
 keybind = ctrl+space>r=reload_config
