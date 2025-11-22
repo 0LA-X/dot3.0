@@ -5,7 +5,10 @@ font-family = CaskaydiaCove Nerd Font
 font-size = 16.5
 
 #[ Cursor ]
-cursor-color = #FFFF33
+# cursor-color = #FFFF33
+# cursor-text = #000000
+# ------------------------
+cursor-color = #00CCFF
 cursor-text = #000000
 cursor-style = block
 cursor-style-blink = true
