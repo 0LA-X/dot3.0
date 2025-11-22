@@ -12,7 +12,7 @@
         "enableSpicetify": true,
         "enableFuzzel": true,
         "enableBtop": true,
-        "enableGtk": true,
+        "enableGtk": false,
         "enableQt": true
     },
     "toggles": {
@@ -47,12 +47,17 @@
                 "enable": true,
                 "match": [{ "class": "btop", "title": "btop", "workspace": { "name": "special:sysmon" } }],
                 "command": ["foot", "-a", "btop", "-T", "btop", "fish", "-C", "exec btop"]
+            },
+            "nvtop": {
+                "enable": true,
+                "match": [{ "class": "nvtop", "title": "nvtop", "workspace": { "name": "special:sysmon" } }],
+                "command": ["foot", "-a", "nvtop", "-T", "nvtop", "fish", "-C", "exec nvtop"]
             }
         },
         "todo": {
             "obsidian": {
                 "enable": true,
-                "match": [{ "class": "obsidian" }],
+                "match": [{ "class": "obsidian", "title": "obsidian", "workspace": { "name": "special:todo" } }],
                 "command": ["todoist"],
                 "move": true
             }
