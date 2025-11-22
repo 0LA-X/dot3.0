@@ -4,6 +4,9 @@
 font-family = CaskaydiaCove Nerd Font
 font-size = 15.5
 
+#[ Cursor ]
+cursor-color = #FFFF33
+cursor-text = #000000
 cursor-style = block
 cursor-style-blink = true
 
@@ -12,26 +15,23 @@ background-opacity = 0.85
 window-padding-x = 5
 window-padding-y = 5
 
+#[ Shell-integration ]
+shell-integration = zsh
 confirm-close-surface = false
 
 # [ Themes ]
-# theme = "Gruvbox Dark Hard"
-# theme = "Builtin Pastel Dark"
-# theme = "Mathias"
-theme = "axgruv"
+# theme = "axgruv"
+theme = "Pro"
 
-# #[ Shaders_Main ]
+#[ Shaders_Main ]
 custom-shader = ./shaders/cursor_smear.glsl
+custom-shader = ./shaders/cursor_warp.glsl
 custom-shader = ./shaders/cursor_blaze_no_trail.glsl
 custom-shader = ./shaders/bloom050.glsl
 
-#[ Shaders_Main ]
-custom-shader = ./shaders/cursor_warp.glsl
-# custom-shader = ./shaders/cursor_sweep.glsl
+#[ Shaders_more ]
+custom-shader = shaders/ripple_cursor.glsl
 # custom-shader = ./shaders/
-# custom-shader = ./shaders/rectangle_boom_cursor.glsl
-# custom-shader = ./shaders/ripple_rectangle_cursor.glsl
-# custom-shader = ./shaders/bloom.glsl
 
 # [ Keybindings ]
 keybind = ctrl+space>r=reload_config
