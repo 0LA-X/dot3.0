@@ -47,11 +47,6 @@
                 "enable": true,
                 "match": [{ "class": "btop", "title": "btop", "workspace": { "name": "special:sysmon" } }],
                 "command": ["foot", "-a", "btop", "-T", "btop", "fish", "-C", "exec btop"]
-            },
-            "nvtop": {
-                "enable": true,
-                "match": [{ "class": "nvtop", "title": "nvtop", "workspace": { "name": "special:sysmon" } }],
-                "command": ["foot", "-a", "nvtop", "-T", "nvtop", "fish", "-C", "exec nvtop"]
             }
         },
         "todo": {

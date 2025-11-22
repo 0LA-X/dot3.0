@@ -2,7 +2,7 @@
 #   Ghostty Config
 # ====================
 font-family = CaskaydiaCove Nerd Font
-font-size = 15.5
+font-size = 16.5
 
 #[ Cursor ]
 cursor-color = #FFFF33
@@ -20,8 +20,8 @@ shell-integration = zsh
 confirm-close-surface = false
 
 # [ Themes ]
-# theme = "axgruv"
-theme = "Pro"
+theme = "axgruv"
+# theme = ""
 
 #[ Shaders_Main ]
 custom-shader = ./shaders/cursor_smear.glsl
