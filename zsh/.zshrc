@@ -33,6 +33,7 @@ source "$ZSH/oh-my-zsh.sh"
 
 #[ Add cargo to path ]
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 export EDITOR="nvim"
 export VISUAL="nvim"
