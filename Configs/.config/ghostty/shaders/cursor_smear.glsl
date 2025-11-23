@@ -62,8 +62,8 @@ float ease(float x) {
 
 // Use this site to convert from HEX to vec4
 // https://enchanted.games/app/colour-converter/
-// const vec4 TRAIL_COLOR = vec4(0.69, 0.149, 1.0, 1.0); // purple
 // const vec4 TRAIL_COLOR = vec4(1., 1., 0., 1.0); // yellow
+// const vec4 TRAIL_COLOR = vec4(0.49, 0.976, 1.0, 1.0); //blue
 const vec4 TRAIL_COLOR = vec4(0.914, 0.702, 0.992, 1.0); // light cursor
 const float OPACITY = 0.6;
 const float DURATION = 0.10; //IN SECONDS
