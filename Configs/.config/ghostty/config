@@ -2,7 +2,7 @@
 #   Ghostty Config
 # ====================
 font-family = CaskaydiaCove Nerd Font
-font-size = 16.5
+font-size = 17
 
 #[ Cursor ]
 # cursor-color = #FFFF33
