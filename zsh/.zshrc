@@ -1,8 +1,3 @@
-# Launch TMUX on terminal startup
-if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
-  tmux attach-session -t main || tmux new-session -s main
-fi
-
 #[ Fun stuff ]
 clear && pokego -r 1,3,6 -no-title
 # fastfetch
