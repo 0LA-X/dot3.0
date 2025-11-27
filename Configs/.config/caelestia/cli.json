@@ -10,7 +10,7 @@
         "enableHypr": true,
         "enableDiscord": true,
         "enableSpicetify": true,
-        "enableFuzzel": false,
+        "enableFuzzel": true,
         "enableBtop": true,
         "enableGtk": false,
         "enableQt": true
